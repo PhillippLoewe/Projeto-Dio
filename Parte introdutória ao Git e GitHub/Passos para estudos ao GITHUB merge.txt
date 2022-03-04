@@ -1,0 +1,20 @@
+Resolver um conflito de merge no GitHub
+Você pode resolver conflitos de merge simples que envolvem alterações concorrentes na linha usando o editor de conflitos.
+Você só pode resolver conflitos de merge no GitHub causados por alterações concorrentes na linha, como quando as pessoas fazem alterações diferentes na mesma linha do mesmo arquivo em diferentes branches no seu repositório Git. Para todos os outros tipos de conflito de merge, você deve resolver o conflito localmente na linha de comando. Para obter mais informações, consulte "Resolver um conflito de merge usando a linha de comando".
+Aviso: Quando você resolve um conflito de merge no GitHub, todo o branch base da sua pull request é mesclada ao branch head. Verifique se você deseja realmente fazer commit para esse branch. Se o branch do cabeçalho for o branch-padrão do seu repositório, você terá a opção de criar um novo branch para servir como o branch do cabeçalho para o seu pull request. Se o branch head estiver protegido, você não será capaz de mesclar sua resolução de conflitos nele, então você será solicitado a criar um novo branch head. Para obter mais informações, consulte "Sobre branches protegidos".
+1.Abaixo do nome do seu repositório, clique em  Pull requests.
+2.Na lista "Pull Requests", clique na pull request que tem um conflito de merge que você deseja resolver.
+3.Próximo à parte inferior da pull request, clique em Resolve conflicts (Resolver conflitos). 
+Dica: se o botão Resolve conflicts (Resolver conflitos) estiver desativado, o conflito de merge da pull request é muito complexo para ser resolvido no GitHub. Você deve resolver o conflito de merge usando um cliente Git alternativo, ou usando o Git na linha de comando. Para obter mais informações, consulte "Resolver um conflito de merge usando a linha de comando".
+4.Decida se você deseja manter apenas as alterações do seu branch, manter apenas as alterações do outro branch, ou fazer uma nova alteração, que pode incorporar alterações de ambos os branches. Exclua os marcadores de conflito <<<<<<<, ============= >>>>>>> e faça as alterações desejadas no merge final. 
+5.Se houver mais de um conflito de merge no arquivo, role para baixo até o próximo conjunto de marcadores de conflito e repita as etapas quatro e cinco para resolver o conflito de merge.
+6.Depois de resolver todos os conflitos do arquivo, clique em Mark as resolved (Marcar como resolvido). 
+7.Se você tiver mais de um arquivo com um conflito, selecione o próximo arquivo que deseja editar no lado esquerdo da página abaixo de "conflicting files" (arquivos conflitantes) e repita as etapas de quatro a sete até resolver todos os conflitos de merge da pull request. 
+8.Depois de resolver todos os conflitos de merge, clique em Commit merge (Fazer commit do merge). Isso incorpora todo o branch base ao branch head. 
+9.Se solicitado, revise o branch presente no commit.
+
+Se o branch head for o branch padrão do repositório, você pode escolher atualizar este branch com as mudanças que você fez para resolver o conflito, ou criar um novo branch e usar isso como o branch head da pull request. 
+Se você escolher criar um novo branch, digite um nome para o branch.
+Se o branch head de sua pull request estiver protegido, você deve criar um novo branch. Você não terá a opção de atualizar o branch protegido.
+Clique em Criar branch e atualizar meu pull request ou Eu entendi, continuar atualizando BRANCH. O texto do botão corresponde à ação que você está executando.
+10.Para fazer merge da pull request, clique em Merge pull request (Fazer merge da pull request). Para obter mais informações sobre outras opções de merge da pull request, consulte "Fazer merge de uma pull request".

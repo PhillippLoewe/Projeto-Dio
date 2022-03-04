@@ -1,0 +1,29 @@
+Funcionamento GIT:
+Tópicos fundamentais:
+- SHA1
+- Objetos fundamentais
+- Sistema distribuído
+- Segurança
+SHA1: 
+(Secure Hash Algorithm) é uma função de hash criptográfica, que foi criada na década de 1990 como uma espécie de chave para proteger as informações inseridas em um site ou servidor. Um certificado digital SSL funciona como uma espécie de “corredor” onde as informações trafegam entre usuário e servidor.
+“A encriptação gera conjunto de caracteres identificador de 40 dígitos.” (Único)
+- BLOB:
+Cada arquivo no Git é armazenado como um objeto blob, por exemplo, a partir do conteúdo do arquivo logo. png ele gera um hash que será armazenado em algum lugar endereçável como aa1b2fb696a831c89c53f787e03d863691d2b671 . O mesmo ocorre com o arquivo app.
+- TREE:
+O tipo de objeto é tree, e em vez de ter os valores simples, como o blob, a tree é um conjunto de valores de índices apontando para os objetos, juntamente com um modo (tipicamente 100644 para arquivos e 100755 para diretórios).
+- COMMIT: (Mais importante)
+São criados com o comando git commit para capturar o estado de um projeto naquele momento. O commit dos instantâneos do Git sempre é feito no repositório local, muito diferente do SVN, no qual se faz o commit de uma cópia do trabalho no repositório central.
+Chaves SSH e Tokens:
+- Chave SSH:
+O SSH (Secure Shell), também conhecido como Secure Socket Shell, é um protocolo que permite a conexão com servidores remotos, de forma criptografada e mais segura, usando um par de chaves RSA. 
+Link para estudos aprofundados: https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+TOKEN:
+Um token de acesso pessoal é um token exclusivo gerado no Site do Desenvolvedor e pode ser usado para autenticar suas solicitações de API.
+Comandos GIT e criação COMMIT: Utilização do programa
+- GIT INIT
+- GIT ADD
+- GIT COMMIT
+Usando arquivos MARKDOWN (leitura mais “humana ou humanizada”)
+
+Ciclo de vida dos arquivos GIT:
+Tracked ou Untracked

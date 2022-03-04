@@ -1,0 +1,8 @@
+GUI x CLI:
+Sigla GUI refere-se a denominação "Graphical User Interface" (Interface Gráfica do Usuário, em português), que consiste em um modelo de interface do utilizador que permite a interação com os dispositivos digitais através de elementos gráficos.
+A CLI permite que os usuários digitem o comando manual para executar a tarefa desejada. ( command-line interface)
+Comandos WINDOWS:
+- cd
+- dir
+- mkdir
+- del / rmdir

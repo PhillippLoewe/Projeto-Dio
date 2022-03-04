@@ -1,0 +1,4 @@
+Git é um sistema de controle de versão de arquivos. Através deles podemos desenvolver projetos na qual diversas pessoas podem contribuir simultaneamente no mesmo, editando e criando novos arquivos e permitindo que os mesmos possam existir sem o risco de suas alterações serem sobrescritas.
+O GitHub serve, fundamentalmente, para facilitar o controle de versões de um software ou aplicação. ... Ele é, também, o maior repositório de softwares de código aberto de toda a internet, tendo, inclusive, como um de seus maiores colaboradores quando o assunto é open source a gigante Microsoft.
+O Git Bash é o aplicativo para ambientes do Microsoft Windows que oferece a camada de emulação para a experiência de linha de comando Git. Bash é acrônico para "Bourne Again Shell". Shells são aplicativos terminais usados como interface em sistemas operacionais por meio de comandos gravados.
+Link para Download Git/GitHub: https://git-scm.com/download/win
